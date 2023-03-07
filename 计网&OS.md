@@ -2,7 +2,7 @@
 
 #### 计算机网络体系结构
 
-![img](C:\Users\30224\Desktop\笔记\assets\0fa6c237-a909-4e2a-a771-2c5485cd8ce0.png)
+![img](./assets/0fa6c237-a909-4e2a-a771-2c5485cd8ce0.png)
 
 ## UDP 和 TCP 的特点
 
@@ -31,11 +31,11 @@ https://www.wangan.com/wenda/10364
 
 DNS服务器分为根**DNS服务器、顶级域DNS服务器和权威DNS服务器**
 
-![](C:\Users\30224\Desktop\笔记\assets\beb6f887b32e4004a22922ce7d43c0a7.png)
+![](./assets/beb6f887b32e4004a22922ce7d43c0a7.png)
 
 设主机cse.sicnu.edu需要查询gaia.cs.umass.edu的ip地址，会发生的流程如下：
 
-![](C:\Users\30224\Desktop\笔记\assets\f232ffc56efe43b0bbd3f160a192e8a0.png)
+![](./assets/f232ffc56efe43b0bbd3f160a192e8a0.png)
 
 **递归查询**：DNS服务器收到一个域名解析请求时，如果所要检索的资源记录不在本地，DNS服务器将和自己的上一层服务器交互，获得最终的答案，并将其返回给客户。
 **迭代查询**：DNS服务器收到解析请求，首先在本地的数据库中查找是否有相应的资源记录，如果没有，则向客户（本地服务器）提供另外一个DNS服务器的地址，客户（本地服务器）负责把解析请求发送给新的DNS服务器地址
@@ -52,7 +52,7 @@ DNS服务器分为根**DNS服务器、顶级域DNS服务器和权威DNS服务器
 
 域名具有层次结构，从上到下依次为：根域名、顶级域名、二级域名。
 
-![img](C:\Users\30224\Desktop\笔记\assets\b54eeb16-0b0e-484c-be62-306f57c40d77.jpg)
+![img](./assets/b54eeb16-0b0e-484c-be62-306f57c40d77.jpg)
 
 DNS 可以使用 UDP 或者 TCP 进行传输，使用的端口号都为 53。大多数情况下 DNS 使用 UDP 进行传输，这就要求域名解析器和域名服务器都必须自己处理超时和重传从而保证可靠性。
 
@@ -250,7 +250,7 @@ HTTPS 是基于 HTTP 的，也是用 TCP 作为底层协议，并额外使用 SS
 - 可以理解成将一台交换机在逻辑上分割成数台交换机。
 - 不同VLAN相当于不同的广播域，要实现 不同VLAN之间的通信，需要路由器提供中继服务，成为**VLAN间路由**
 
-![image-20230222152829476](C:\Users\30224\Desktop\笔记\assets\image-20230222152829476.png)
+![image-20230222152829476](./assets/image-20230222152829476.png)
 
 
 
@@ -272,7 +272,7 @@ HTTPS 是基于 HTTP 的，也是用 TCP 作为底层协议，并额外使用 SS
 
 ### 二、Linux目录树
 
-![Linux的目录结构](C:\Users\30224\Desktop\笔记\assets\Linux目录树.b82202fa.png)
+![Linux的目录结构](./assets/Linux目录树.b82202fa.png)
 
 ##### 常见目录
 
@@ -343,7 +343,7 @@ Linux 中的打包文件一般是以.tar 结尾的，压缩的命令一般是以
 
 #### Linux权限命令
 
-![img](C:\Users\30224\Desktop\笔记\assets\Linux权限解读.7c1098a0.png)
+![img](./assets/Linux权限解读.7c1098a0.png)
 
 **文件的类型：**
 
@@ -385,7 +385,7 @@ Linux 中的打包文件一般是以.tar 结尾的，压缩的命令一般是以
 
 **`chmod u=rwx,g=rw,o=r aaa.txt`** 或者 **`chmod 764 aaa.txt`**
 
-![image-20230222162030785](C:\Users\30224\Desktop\笔记\assets\image-20230222162030785.png)
+![image-20230307110053648](./assets/image-20230307110053648.png)
 
 #### 用户管理
 
